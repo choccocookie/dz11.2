@@ -1,4 +1,8 @@
 def capital_letters(value):
-    """Функция переводит строку в заглавные буквы"""
-    return print(value.upper())
+    """Преобразует все буквы в заглавные"""
+    return value.upper()
+
+def big_word(value):
+    """Преобразует первые буквы слов в заглавные"""
+    return value.tittle()
 
